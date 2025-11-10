@@ -20,7 +20,9 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://portfolio-frontend-three-omega.vercel.app"
+    "https://portfolio-frontend-three-omega.vercel.app",
+    "https://alexandrurak.com",                 
+    "https://www.alexandrurak.com"
 ]
 app.add_middleware(
     CORSMiddleware,
